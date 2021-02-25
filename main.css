@@ -1,7 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
 .myBtn {
 	color: "white";
-	background: "1ca3ec";
+	background-color: #1ca3ec;
 	text-align: center;
 	border-radius: 5px;
 	padding: 1rem;
+	position: absolute;
+	text-decoration: none;
+	z-index: 10;
 }
