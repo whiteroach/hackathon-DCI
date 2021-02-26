@@ -96,7 +96,9 @@ form div {
 	margin: 0.5rem;
 	text-align: center;
 }
-
+form div label {
+	padding-top: 10px;
+}
 form div input {
 	padding: 10px;
 	border: #999 solid 1px;
