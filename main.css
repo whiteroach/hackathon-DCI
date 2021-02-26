@@ -17,7 +17,7 @@ body {
 }
 /* NAVBAR */
 nav {
-	position: absolute !important;
+	/* position: absolute !important; */
 	z-index: 10;
 	width: 100vw;
 }
@@ -25,7 +25,7 @@ nav {
 	color: #fff;
 }
 .navbar ul {
-	margin-left: auto;
+	/* margin-left: auto; */
 	margin-right: 4rem;
 }
 .navbar ul button {
@@ -80,4 +80,38 @@ nav {
 .col-md-6 img {
 	width: max-content;
 	height: max-content;
+}
+
+/* FORM */
+
+.form-nav {
+	background-color: #1ca3ec;
+	height: 5rem;
+	width: 100vw;
+}
+.card {
+	margin-top: 5rem;
+}
+form div {
+	margin: 0.5rem;
+	text-align: center;
+}
+
+form div input {
+	padding: 10px;
+	border: #333 solid 1px;
+	border-radius: 5px;
+}
+
+form button {
+	float: right;
+	margin-top: 1rem;
+	margin-right: 4rem;
+}
+
+#form {
+	margin-bottom: 5rem;
+}
+form {
+	margin: 2rem;
 }
