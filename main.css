@@ -1,7 +1,54 @@
 * {
 	margin: 0;
 	padding: 0;
-	overflow-y: hidden;
+	overflow-x: hidden;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	width: 100vw;
+}
+
+/* MAIN CONTAINER */
+.container-fluid {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+/* NAVBAR */
+nav {
+	position: absolute !important;
+	z-index: 10;
+	width: 100vw;
+}
+.navbar a {
+	color: #fff;
+}
+.navbar ul {
+	margin-left: auto;
+	margin-right: 4rem;
+}
+.navbar ul button {
+	margin-left: 1rem;
+	padding: 0.3rem;
+	border-radius: 5px;
+	background-color: #ffd2d5;
+	border: none;
+}
+/* CAROUSEL */
+.carousel-caption {
+	text-align: justify !important;
+}
+.carousel-caption h5 {
+	margin-top: auto;
+	font-family: "Rubik", sans-serif;
+	font-size: 55px;
+}
+
+.container {
+	height: 100vh;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 }
 
 .myBtn {
@@ -10,7 +57,7 @@
 	text-align: center;
 	border-radius: 5px;
 	padding: 1rem;
-	position: absolute;
+	/* position: abso; */
 	text-decoration: none;
 	z-index: 10;
 }
